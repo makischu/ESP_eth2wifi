@@ -15,3 +15,4 @@ This is what I propose here. It is just a proof of concept. It still relies on t
 
 Unfortunately this proposal requires manual changes in the ESP-IDF. The lines of esp_netif_lwip.c and tcpip_adapter_compat.c need to be added to the original files. Maybe someone other is able to build a more general solution which is good enough to be added to the ESP-IDF one day.
 
+Please note that this repository does not contain the whole solution. But it contains everything that is necessary to make the eth2wifi example (from https://github.com/espressif/esp-iot-solution/tree/release/v1.1 ) work on IDF 4.3 for the purpose explained above. I suggest to first get the original example running (to proof that everything is configured correctly) and then apply the proposed changes to fix the issue of non-forwarded traffic.
