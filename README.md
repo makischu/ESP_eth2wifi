@@ -1,5 +1,5 @@
 # ESP_eth2wifi
-Replacement for missing eth2wifi example in espressif/esp-iot-solution
+Proposal of a temporary replacement for missing eth2wifi example in espressif/esp-iot-solution
 
 Former releases of espressif/esp-iot-solution, up to v1.1, included a eth2wifi example. 
 
